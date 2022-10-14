@@ -80,8 +80,8 @@ background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, F
 
 @media screen and (max-width: 400px) {
   .navbar{
-    display : flex;
-    justify-content : center;
+/*     display : flex;
+    justify-content : center; */
     width : 40%;
   }
   .btn-signup,
