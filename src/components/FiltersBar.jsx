@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useFilter } from "../context/filter-context";
-import cities from "../dummyData/cities";
+import {cities} from "../data/data";
 import { getTodaysDate } from "../utilities/getTodaysDate";
 
 export const FiltersBar = () => {

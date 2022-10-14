@@ -4,6 +4,15 @@
   padding: 0.7rem;
   border-bottom: 1px solid var(--light-gray-border);
   background-color: #faf9fe;
+  position: sticky;
+  top: 0;
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+ 
+background: #2BC0E4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 .link {
@@ -51,7 +60,12 @@
 }
 .auth-btns {
   gap: 1rem;
+  
 }
+
+
+
+
 
 @media screen and (max-width: 500px) {
   .navbar {

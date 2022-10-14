@@ -4,7 +4,12 @@
   border-radius: 5px;
   position: relative;
   background-color: white;
+  margin-left: 1.2rem;
+  margin-top: 1.2rem;
+
 }
+
+
 
 .card-img-box {
   height: 12rem;
@@ -14,6 +19,11 @@
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
+}
+
+.property-card-img:hover{
+  -webkit-filter: brightness(80%);
+  transform: scale(1.1);
 }
 
 .card-body {

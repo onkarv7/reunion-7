@@ -1,4 +1,4 @@
-const rentPropertyData = [
+export const rentPropertyData = [
   {
     id: "O4Ld78YdeeF5",
     name: "3 BHK in Kaushalya nagar",
@@ -192,4 +192,10 @@ const rentPropertyData = [
   },
 ];
 
-export default rentPropertyData;
+export const cities = [
+  { value: "all", displayName: "All" },
+  { value: "New York", displayName: "New York" },
+  { value: "Seattle", displayName: "Seattle" },
+  { value: "Arizona", displayName: "Arizona" },
+  { value: "Texas", displayName: "Texas" },
+];

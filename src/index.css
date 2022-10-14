@@ -3,7 +3,14 @@ body {
   font-family: var(--inter-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+
+  background: #ECE9E6;  
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+  
+
+
 }
 
 textarea:focus,
@@ -39,7 +46,7 @@ input:focus {
 } */
 
 .gap-1 {
-  gap: 1rem;
+  gap: 4rem;
 }
 
 /* .text-center {
@@ -54,6 +61,7 @@ input:focus {
 
 /* variables.css */
 :root {
+ 
   --primary-color: #664de5;
   --primary-light-color: #7f6be9;
   --primary-lightest-color: #cfc7f5;

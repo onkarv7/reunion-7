@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./rentProperty.css";
 import { PropertyCard } from "../components/PropertyCard";
-import rentPropertyData from "../dummyData/rentPropertyData";
+import {rentPropertyData} from "../data/data";
 import { useFilter } from "../context/filter-context";
 import { filterProperty } from "../utilities/filterProperty";
 import { searchProperty } from "../utilities/searchProperty";
@@ -24,7 +24,7 @@ export const RentProperty = () => {
       <NavBar />
       <div className="rent-property-page">
         <div className="search-container">
-          <h1>Search Properties for Rent</h1>
+          <h1 className="text">Search Properties for Rent</h1>
           <input
             className="search-property"
             type="text"

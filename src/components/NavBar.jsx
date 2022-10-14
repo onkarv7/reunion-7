@@ -35,9 +35,9 @@ export const NavBar = () => {
         </Link>
 
       </div>
-      <div className="auth-btns flex">
-        <p className="btn-login">Login</p>
-        <p className="btn-signup">Signup</p>
+      <div className="auth-btns btn-grad flex">
+        <p className="btn-login btn-grad">Login</p>
+        <p className="btn-signup btn-grad">Signup</p>
       </div>
     </nav>
   );

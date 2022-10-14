@@ -3,7 +3,19 @@
   padding: 0 12vw;
 }
 
+
 /* Filters Bar */
+
+.text {
+  margin-left: 2rem;
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
+
 .filters-bar {
   background-color: white;
   display: flex;
