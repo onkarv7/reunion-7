@@ -1,0 +1,65 @@
+.property-card {
+  width: 300px;
+  height: max-content;
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+}
+
+.card-img-box {
+  height: 12rem;
+}
+.property-card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-body {
+  margin-left: 0.5rem;
+}
+.property-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.property-rent {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.address,
+.availability-txt,
+.property-type-txt {
+  font-size: 14px;
+  color: gray;
+  font-weight: 600;
+}
+
+.card-bottom {
+  font-size: 14px;
+  margin: 0 0 10px 5px;
+}
+.card-bottom i {
+  color: var(--primary-color);
+}
+
+#favorite-icon {
+  position: absolute;
+  z-index: 2;
+  top: 13rem;
+  right: 1rem;
+  border-radius: 50%;
+  border: 1px solid var(--light-gray-border);
+  padding: 5px;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.divider {
+  border-top: 1px solid var(--light-gray-border);
+}
+
+

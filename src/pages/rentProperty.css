@@ -1,0 +1,107 @@
+/* Rent Property Page */
+.rent-property-page {
+  padding: 0 12vw;
+}
+
+/* Filters Bar */
+.filters-bar {
+  background-color: white;
+  display: flex;
+  gap: 1rem;
+  padding: 15px 10px;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+
+.filters-bar label {
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.filters-bar select,
+.filters-bar input[type="date"] {
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-search {
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  background-color: var(--primary-light-color);
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+}
+
+.search-property {
+  width: 15rem;
+  height: 2rem;
+  border: 2px solid var(--light-gray-border);
+  border-radius: 5px;
+}
+.search-property:focus {
+  border: 2px solid var(--primary-color);
+}
+/* Property list */
+.property-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: left;
+  margin: 1rem 1rem;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1000px) {
+  .search-container h1 {
+    font-size: 1.2rem;
+  }
+  .btn-search {
+    padding: 10px 15px;
+  }
+  .rent-property-page {
+    padding: 0 5vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .btn-search,
+  .filters-bar label,
+  .filters-bar select,
+  .filters-bar input[type="date"] {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .filters-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .search-container h1 {
+    font-size: 1rem;
+  }
+  .search-container {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: var(--inter-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+
+
+/* commmon css */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* common-styling */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .gap-5px {
+  gap: 5px;
+} */
+
+.gap-1 {
+  gap: 1rem;
+}
+
+/* .text-center {
+  text-align: center;
+} */
+
+/* .empty-list {
+  font-size: 1.2rem;
+  font-weight: bold;
+} */
+
+
+/* variables.css */
+:root {
+  --primary-color: #664de5;
+  --primary-light-color: #7f6be9;
+  --primary-lightest-color: #cfc7f5;
+  --inter-font: "Inter", sans-serif;
+  --gray-color: #808080;
+  --light-gray-border: #d1d5db;
+  --background-color: #f8f7fd;
+}
+.gray-color {
+  color: var(--gray-color);
+}
