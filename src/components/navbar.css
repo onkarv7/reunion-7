@@ -68,14 +68,14 @@ background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, F
   .auth-btns {
     gap: 10px;
   }
-  .navbar{
-     flex-wrap: wrap;
-    justify-content: center;
-}
+ 
 }
 
 @media screen and (max-width: 400px) {
-
+ .navbar{
+     flex-wrap: wrap;
+    justify-content: center;
+}
   .btn-signup,
   .btn-login {
     display: none;
