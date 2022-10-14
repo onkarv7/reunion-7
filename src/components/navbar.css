@@ -72,6 +72,7 @@ background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, F
      flex-wrap: wrap;
     justify-content: center;
 }
+}
 
 @media screen and (max-width: 400px) {
 
