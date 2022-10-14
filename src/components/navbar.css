@@ -60,11 +60,12 @@ background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, F
 
 
 @media screen and (max-width: 500px) {
+  
   .navbar {
     font-size: 12px;
     flex-wrap: wrap;
     justify-content: baseline;
-    width : 40%;
+  
   }
   .auth-btns {
     gap: 10px;
