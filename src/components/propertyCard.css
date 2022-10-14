@@ -21,10 +21,10 @@
   border-radius: 5px;
 }
 
-.property-card-img:hover{
+/* .property-card-img:hover{
   -webkit-filter: brightness(80%);
   transform: scale(1.1);
-}
+} */
 
 .card-body {
   margin-left: 0.5rem;
